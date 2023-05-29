@@ -40,7 +40,7 @@ $(document).ready(function () {
         dots: false,        // ẩn điểm chuyển đổi
         infinite: true,     // vòng lặp vô hạn
         slidesToShow: 5,    // 4 hình ảnh trên mỗi dòng
-        slidesToScroll: 1,  // chuyển đổi từng slide mỗi lần click
+        slidesToScroll: 2,  // chuyển đổi từng slide mỗi lần click
         responsive: [
             {
                 breakpoint: 768,
