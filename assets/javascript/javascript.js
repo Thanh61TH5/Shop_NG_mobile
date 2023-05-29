@@ -40,21 +40,24 @@ $(document).ready(function () {
         dots: false,        // ẩn điểm chuyển đổi
         infinite: true,     // vòng lặp vô hạn
         slidesToShow: 5,    // 4 hình ảnh trên mỗi dòng
-        slidesToScroll: 2,  // chuyển đổi từng slide mỗi lần click
+        slidesToScroll: 1,  // chuyển đổi từng slide mỗi lần click
         responsive: [
             {
                 breakpoint: 768,
                 settings: {
+                    slidesToScroll: 2,
                     slidesToShow: 2 // 2 hình ảnh trên từng dòng khi màn hình có độ rộng 768px trở xuống
                 },},
             {
                 breakpoint: 1076,
                 settings: {
+                    slidesToScroll: 3,
                     slidesToShow: 3,
                 },},
             {
                 breakpoint: 1024,
                 settings: {
+                    slidesToScroll: 2,
                     slidesToShow: 2,
                 }
             }
